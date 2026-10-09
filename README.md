@@ -1,5 +1,7 @@
 # Sinergia
 
+![Descargas en GitHub](https://img.shields.io/github/downloads/Nacho-Telmo/windows/total?label=Descargas&style=flat-square)
+
 ## 📸 Captura de pantalla
 ![Interfaz de Sinergia](assets/Sinergia-Portable-App-Manager-.png)
 

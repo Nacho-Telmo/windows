@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinergia - Portable Apps Manager</title>
+    <!-- Estilos modernos integrados -->
+    <style>
+        :root {
+            --bg-color: #0f111a;
+            --card-bg: #1a1c29;
+            --accent-color: #6366f1;
+            --accent-hover: #4f46e5;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 1rem 2rem 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            font-size: 1.25rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 2rem auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: background-color 0.2s, transform 0.2s;
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 1rem 4rem 1rem;
+            text-align: center;
+        }
+
+        .screenshot-container {
+            background: var(--card-bg);
+            padding: 1rem;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            margin: 2rem 0;
+        }
+
+        .screenshot-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+            text-align: left;
+        }
+
+        .feature-card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .feature-card h3 {
+            margin-top: 0;
+            color: #818cf8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        footer a {
+            color: #818cf8;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sinergia</h1>
+        <p class="subtitle">El gestor de aplicaciones portátiles definitivo para Windows. Organiza, arrastra y ejecuta tus herramientas de forma rápida y fluida.</p>
+        <a href="https://github.com/Nacho-Telmo/windows/releases" class="btn">Descargar para Windows</a>
+    </header>
+
+    <main>
+        <!-- Captura de pantalla de la app -->
+        <div class="screenshot-container">
+            <img src="assets/Sinergia-Portable-App-Manager-.png" alt="Interfaz de Sinergia Portable Apps Manager">
+        </div>
+
+        <!-- Características clave -->
+        <div class="features">
+            <div class="feature-card">
+                <h3>⚡ Interfaz Moderna</h3>
+                <p>Desarrollada con PyQt6 bajo un entorno visual oscuro, limpio y adaptado a Windows.</p>
+            </div>
+            <div class="feature-card">
+                <h3>📂 Arrastrar y Soltar</h3>
+                <p>Añade nuevos ejecutables portátiles con total comodidad arrastrándolos directamente a la ventana.</p>
+            </div>
+            <div class="feature-card">
+                <h3>🔓 Código Abierto</h3>
+                <p>Bajo la licencia estricta GNU GPL v3, garantizando total transparencia y libertad para la comunidad.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Sinergia es un proyecto de código abierto disponible en <a href="https://github.com/Nacho-Telmo/windows">GitHub</a>.</p>
+    </footer>
+
+</body>
+</html>

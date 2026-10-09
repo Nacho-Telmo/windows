@@ -1,5 +1,8 @@
 # Sinergia
 
+## 📸 Captura de pantalla
+![Interfaz de Sinergia](assets/Sinergia-Portable-App-Manager-.png)
+
 Manager de archivos portables que permite organizarlos facilmente.
 
 ## 🚀 Características
